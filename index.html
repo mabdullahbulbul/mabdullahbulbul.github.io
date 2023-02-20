@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0056)http://bankslab.berkeley.edu/members/abdullah/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript">
+function toggleMe(a){
+  var e=document.getElementById(a);
+  if(!e)return true;
+  if(e.style.display=="none"){
+    e.style.display="block"
+  } else {
+    e.style.display="none"
+  }
+  return true;
+}
+
+function switchTo(a){
+  var e=document.getElementById(a);
+  if(!e)return true;
+  document.getElementById("publications").style.display="none";
+  document.getElementById("projects").style.display="none";
+  document.getElementById("schedule").style.display="none";
+  document.getElementById("publications_button").style.fontWeight="normal";
+  document.getElementById("projects_button").style.fontWeight="normal";
+  document.getElementById("schedule_button").style.fontWeight="normal";
+  e.style.display="block";
+  document.getElementById(a.concat("_button")).style.fontWeight="bold";
+  return true;
+}
+
+</script>
+
+<title>M. Abdullah Bulbul</title>
+<link rel="stylesheet" href="./M. Abdullah Bulbul_files/style.css">
+</head><body data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="">
+  <div id="testdiv">
+    <table>
+      <tbody><tr>
+        <td>
+          <img src="./M. Abdullah Bulbul_files/me2.jpg" alt="" style="float:left; margin-right:10px" height="200">
+        </td>
+        <td>
+          <h1>M. Abdullah Bulbul, Ph.D.</h1><br>
+          <h2>Postdoctoral Researcher at University of California, Berkeley<br>
+          Vision Science Group (<a href="http://bankslab.berkeley.edu/">BANKSLAB</a>)
+          <br>supervisor: Marty Banks <br><br>
+
+          e-mail: <a href="mailto:bulbul@berkeley.edu">bulbul@berkeley.edu</a><br><br>
+
+My CV: <a href="http://bankslab.berkeley.edu/members/abdullah/res/bulbul_cv.pdf">pdf</a>
+<br>
+My <a href="http://scholar.google.com/citations?hl=en&amp;user=TKUlJukAAAAJ">Google Scholar profile</a>
+<br>
+</h2>
+	
+  PhD: <a href="http://cs.bilkent.edu.tr/index.php?p=index&amp;l=en">Bilkent University, Department of Computer Engineering</a>, 2012
+  (supervised by:  <a href="http://cs.bilkent.edu.tr/~tcapin">Tolga Capin</a>)
+  <br>
+  <br>
+
+</td>
+</tr>
+</tbody></table>
+  <div class="button"><strong><span style="font-style: italic;">Research Interests</span></strong><em></em></div>
+  <p>
+  </p><ul>
+	<li>Computer Graphics</li>
+ <li>Visual Attention</li>
+ <li>3D Displays</li>
+ <li>Depth Perception</li>
+ <li>Human Computer Interaction</li>
+  </ul>
+  <p></p>
+
+<table width="100%">
+  <tbody><tr>
+    <td width="33.3%">
+      <div id="publications_button" class="button" style="font-weight: normal;" onclick="return switchTo(&#39;publications&#39;)"><span style="font-style: italic;">Publications</span><em></em></div>
+    </td>
+    <td width="33.3%">
+      <div id="projects_button" class="button" onclick="return switchTo(&#39;projects&#39;)" style="font-weight: normal;"><span style="font-style: italic;">Projects</span><em></em></div>
+    </td>    
+    <td width="33.3%">
+      <div id="schedule_button" class="button" onclick="return switchTo(&#39;schedule&#39;)" style="font-weight: bold;"><span style="font-style: italic;">Schedule</span><em></em></div>
+    </td>
+  </tr>
+</tbody></table>
+	
+
+<div id="publications" style="display: none;">
+<table>
+
+  <tbody><tr>
+      <td>
+        <h1>The Perception of Surface Material from Disparity and Focus Cues</h1>
+        <p><h3b><i>Martin Banks, Abdullah Bulbul, Marina Zannoli, Rachel A Albert, Rahul Narain, James F O’Brien, Gregory Ward</i> 
+          <br>VSS 2014<br>
+        </h3b>
+        </p>
+        <div id="hinge">
+        We present the effect of focus, stereo disparity, and motion parallax cues on material/glossiness perception. We found a significant effect of each isolated cue on glossiness perception, i.e, in a volumetric display, users gave a higher glossiness rating if the reflections are rendered to their correct depths even with monocular vision.
+        <br>
+        <p></p>
+        </div>  
+    </td>
+    <td><img src="./M. Abdullah Bulbul_files/glossiness.jpg" style="float:left; margin-bottom:10px" width="250"></td>
+  </tr>
+
+  <tr>
+      <td>
+        <h1>Can 3D Shape be Estimated from Focus Cues Alone?</h1>
+        <p><h3b><i>Rachel A. Albert, Marina Zannoli, Abdullah Bulbul, Rahul Narain, James F. O’Brien, Martin Banks</i> 
+          <br>VSS 2014<br>
+        </h3b>
+        </p>
+        <div id="hinge">
+        In an experiment, we show convex or concave hinges to the subjects on a volumetric display which is capable of providing near-correct focus cues. All other depth cues were uninformative and the users were able to judge the hinge direction using focus cues alone.
+        <br>
+        <p></p>
+        </div>  
+    </td>
+    <td><img src="./M. Abdullah Bulbul_files/hinge.jpg" style="float:left; margin-bottom:10px" width="250"></td>
+  </tr>
+
+
+  <tr>
+      <td>
+        <h1>Correct blur and accommodation information is a reliable cue to depth ordering</h1>
+        <p><h3b><i>Marina Zannoli, Rachel A. Albert, Abdullah Bulbul, Rahul Narain, James F. O’Brien, Martin Banks</i> 
+          <br>VSS 2014<br>
+        </h3b>
+        </p>
+        <div id="occlusion">
+        It is known that blur by itself is an unsigned depth cue (on non-volumetric displays). In this study, we present the effectiveness of blur and accommodation on depth ordering using a volumetric multi-plane display.
+        <br>
+        <p></p>
+        </div>  
+    </td>
+    <td><img src="./M. Abdullah Bulbul_files/occlusion.jpg" style="float:left; margin-bottom:10px" width="250"></td>
+  </tr>
+
+  <tr>
+      <td>
+        <h1>A Clustering-Based Method to Estimate Saliency in 3D Animated Meshes</h1>
+        <p><h3b><i>Abdullah Bulbul, Sami Arpa, Tolga Capin</i> 
+          <br>Computers &amp; Graphics, to appear<br>
+        </h3b>
+        </p>
+        <div id="saliency_cag">
+        We present a model to determine the perceptually significant elements in animated 3D scenes using a motion-saliency method. Our model clusters vertices with similar motion-related behaviors. Then each cluster is analyzed as a single unit and representative vertices of each cluster are used to extract the motion-saliency values of each group.
+
+        <br>
+        <p></p>
+        </div>  
+    </td>
+    <td><img src="./M. Abdullah Bulbul_files/saliency_cag.png" style="float:left; margin-bottom:10px" width="250"></td>
+  </tr>
+
+    <tr>
+      <td>
+        <h1>A Framework for Applying the Principles of Depth Perception to Information Visualization</h1>
+        <p><h3b><i>Zeynep C. Yildiz, Abdullah Bulbul, Tolga Capin</i> 
+          <br>ACM Transactions on Applied Perception (TAP), 2013<br>
+        
+        </h3b></p>
+        <div id="depth_tap">
+        During the visualization of 3D content, using the depth cues selectively to support the design goals and enabling a user to perceive the spatial relationships between the objects are important concerns. In this novel solution, we automate this process by proposing a framework that determines important depth cues for the input scene and the rendering methods to provide these cues.
+        <br>
+        <p></p>
+        </div>  
+    </td>
+    <td width="250"><img src="./M. Abdullah Bulbul_files/depth-2013.jpg" style="float:left; margin-bottom:10px" width="250"></td>
+  </tr>
+
+    <tr>
+      <td>
+        <h1>Perceptual Caricaturization of 3D Models</h1>
+        <p><h3b><i>Gokcen Cimen, Abdullah Bulbul, Bulent Ozguc, Tolga Capin</i> 
+          <br>ISCIS, 2012<br>
+        
+        </h3b></p>
+        <div id="caricatur">
+        We present a perceptual caricaturization approach practicing the concept of exaggeration, which is very common in traditional art and caricature, on 3D mesh models synthesizing the idea of mesh saliency.
+
+        <br>
+        <p></p>
+        </div>  
+    </td>
+    <td width="250"><img src="./M. Abdullah Bulbul_files/caricatur.png" style="float:left; margin-bottom:10px" width="250"></td>
+  </tr>
+
+    <tr>
+      <td>
+        <h1>Perceptual 3D Rendering Based on Principles of Analytical Cubism</h1>
+        <p><h3b><i>Sami Arpa, Abdullah Bulbul, Tolga Capin, Bulent Ozguc</i> 
+          <br>Computers &amp; Graphics, 2012<br>
+        
+        </h3b></p>
+        <div id="cubism">
+        We present a novel approach for cubist rendering of 3D synthetic environments. Rather than merely imitating cubist 
+paintings, we apply the main principles of analytical cubism to 3D graphics rendering.
+
+        <br>
+        <p></p>
+        </div>  
+    </td>
+    <td width="250"><img src="./M. Abdullah Bulbul_files/cubist.png" style="float:left; margin-bottom:10px" width="125" height="180">
+                <img src="./M. Abdullah Bulbul_files/cubism.png" style="float:left; margin-bottom:10px" width="125" height="180"></td>
+  </tr>
+
+
+    <tr>
+      <td>
+<h1>Assessing Visual Quality of 3-D Polygonal Models</h1>
+<p><h3b><i>Abdullah Bulbul, Tolga Capin, Guillaume Lavoué, Marius Preda</i> 
+  <br>IEEE Signal Processing Magazine, 2011<br>
+
+</h3b></p>
+<div id="quality" style="display:block">
+Recent advances in evaluating and measuring the perceived visual quality of three-dimensional (3-D) 
+polygonal models are presented in this article, which analyzes the general process of objective 
+quality assessment metrics and subjective user evaluation methods and presents a taxonomy of existing solu-
+tions.<br>
+<p></p>
+</div>	
+</td>
+      <td><img src="./M. Abdullah Bulbul_files/assessment.png" style="float:left; margin-bottom:10px" width="250"></td>
+</tr>
+  <tr>
+      <td>
+<h1>A Decision Theoretic Approach to Motion Saliency in Computer Animations</h1>
+<p><h3b><i>Sami Arpa, Abdullah Bulbul, Tolga Capin</i> <br>Motion in Games, 2011<br>
+</h3b></p>
+<div id="motionsaliency" style="display:block">
+We describe a model to calculate saliency of objects due to their motions. In a decision-theoretic fashion, perceptually significant objects inside a scene are detected. We conducted several eye-tracking experiments to practically observe the motion-attention related principles in psychology literature. We also performed some final user studies to evaluate our model and its effectiveness.<br>
+<p></p>
+</div>
+</td>
+<td><img src="./M. Abdullah Bulbul_files/motion.jpg" style="float:left; margin-bottom:10px" width="250"></td>
+</tr>
+  <tr>
+      <td>
+<h1>A Framework for Enhancing Depth Perception in Computer Graphics</h1>
+<p><h3b><i>Zeynep Cipiloglu, Abdullah Bulbul, Tolga Capin</i> <br>APGV, 2010<br>
+</h3b></p><div id="depth" style="display:block">
+This paper introduces a solution for enhancing depth perception in a given 3D computer-generated scene. For this purpose, we propose a framework that decides on the suitable depth cues for a given scene and the rendering methods which provide these cues.<br>
+<p></p>
+</div>
+</td>
+      <td><img src="./M. Abdullah Bulbul_files/depth.png" style="float:left; margin-bottom:10px" width="250"></td>
+</tr>
+  <tr>
+      <td>
+<h1>Saliency for Animated Meshes with Material Properties</h1>
+<p><h3b><i>Abdullah Bulbul, Cetin Koca, Tolga Capin, Ugur Gudukbay</i> <br>APGV, 2010<br>
+</h3b></p><div id="saliency" style="display:block">
+We propose a technique to calculate the saliency of animated meshes with material properties. The saliency computation considers multiple features of 3D meshes including their geometry, material and motion. <br>
+<p></p>
+</div>
+</td>
+      <td><img src="./M. Abdullah Bulbul_files/saliency.jpg" style="float:left; margin-bottom:10px" width="250"></td>
+</tr>
+  <tr>
+      <td>
+<h1>A Color-Based Face Tracking Algorithm for Enhancing Interaction with Mobile Devices</h1>
+<p><h3b><i>Abdullah Bulbul, Zeynep Cipiloglu, Tolga Capin</i> <br>The Visual Computer, 2010<br>
+</h3b></p><div id="facet2" style="display:block">
+A color-based face tracking algorithm is proposed to be used as a human-computer interaction tool on mobile devices. The solution provides a natural means of interaction enabling a motion parallax effect in applications. The algorithm considers the characteristics of mobile use-constrained computational resources and varying environmental conditions. <br>
+<p></p>
+</div>
+</td>
+      <td><img src="./M. Abdullah Bulbul_files/face2.png" style="float:left; margin-bottom:10px" width="250"></td>
+</tr>
+  <tr>
+      <td>
+<h1>A Perceptual Approach for Stereoscopic Rendering Optimization</h1>
+<p><h3b><i>Abdullah Bulbul, Zeynep Cipiloglu, Tolga Capin</i> <br>Computers &amp; Graphics, 2010<br>
+</h3b></p><div id="stereo" style="display:block">
+We propose a perceptually-based approach for accelerating stereoscopic rendering. This optimization approach is based on the Binocular
+Suppression Theory, which claims that the overall percept of a stereo pair in a region is determined by
+the dominant image on the corresponding region. We investigate how binocular suppression
+mechanism of human visual system can be utilized for rendering optimization. <br>
+<p></p>
+</div>
+</td>
+      <td><img src="./M. Abdullah Bulbul_files/stereo.png" style="float:left; margin-bottom:10px" width="250"></td>
+</tr>
+  <tr>
+      <td>
+<h1>A Face Tracking Algorithm for User Interaction in Mobile Devices</h1>
+<p><h3b><i>Abdullah Bulbul, Zeynep Cipiloglu, Tolga Capin</i> <br>Cyberworlds, 2009<br>
+</h3b></p><div id="facet" style="display:block">
+A new face tracking algorithm, and a human-computer interaction technique based on this algorithm, are proposed for use on mobile devices. The face tracking algorithm considers the limitations of mobile use case - constrained computational resources and varying environmental conditions.<br>
+<p></p>
+</div>
+</td>
+      <td><img src="./M. Abdullah Bulbul_files/face.png" style="float:left; margin-bottom:10px" width="250"></td>
+</tr>
+  <tr>
+      <td>
+<h1>Animation of Boiling Phenomena</h1>
+<p><h3b><i>Abdullah Bulbul, Onur Kucuktunc, Bulent Ozguc</i> <br>3DTV Conference, 2008<br>
+</h3b></p><div id="boil" style="display:block">
+We present an efficient method for the simulation of boiling water in this paper. The method is based on
+modeling the bubbles and waves as particles. Grid-based approach is
+used both for the heating and the fluid surface.<br>
+<p></p>
+</div>
+        </td>
+      <td><img src="./M. Abdullah Bulbul_files/boiling.png" style="float:left; margin-bottom:10px" width="250"></td>
+      </tr>
+    </tbody></table>
+  </div>
+
+<div id="projects" style="display: none;">
+  <h1b>Research Projects</h1b>
+  <table>
+    <tbody><tr>
+      <td width="250">
+        <img src="./M. Abdullah Bulbul_files/paint_r0_pair.png" style="float:left; margin-bottom:10px" width="250">
+        <img src="./M. Abdullah Bulbul_files/reflection_r0_pair.png" style="float:left; margin-bottom:10px" width="250">
+      </td>
+      <td>
+        <h1>2012-2014: Perception of Surface Materials, Binocular Vision and Accommodation</h1>
+        <br><p>The effects of accommodation, binocular vision, and motion parallax on material perception are investigated. Reflections and surface appear at different depths. Thus, triangulation based depth cues (Accommodation, Binocular Vision, and Motion Parallax) could be utilized in material perception. </p>
+        <p>A unique volumetric multi-plane display is used to provide correct focal cues.<br>
+        As a pre-project a rendering method enabling near-correct presentation of occlusions, reflections, and blur on multi-plane volumetric displays is developed.</p>
+        <br>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="./M. Abdullah Bulbul_files/algi.png" style="float:left; margin-bottom:10px" width="250"></td>
+      <td>
+        <h1>2011-2012: ALGI, Perceptual Computer Graphics</h1>
+        <br><p>A research projecy funded by TUBITAK (Scientific and Technological Research Council of Turkey). I have mainly worked on determining the visually important regions in a 3D scene and utilizing this information for various computer graphics applications like mesh simplification, artistic rendering, and stereoscopic rendering optimization.</p>
+        <br>
+        <p></p>
+      </td>
+      </tr>
+    <tr>
+      <td><img src="./M. Abdullah Bulbul_files/3dphone.png" style="float:left; margin-bottom:10px" width="250"></td>
+      <td>
+        <h1>2008-2010: 3DPhone, All 3D Imaging Phone</h1>
+        <br><p>A project under European Union's 7th framework program. We have developed a mobile device prototype to increase mobile 3D experience. I was responsible for development of 3D rendering system and applications and research about 3D interaction methods and depth perception.</p>
+        <p> Collaborators: Billkent University, Holografika, Telefonica, TAT, Fraunhofer, and Helsinki University</p>
+        <br>
+        <p></p>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <h1b>Some Course Projects and More </h1b>
+  <table>
+    <tbody><tr><td width="100" align="center"><h1>2008</h1></td><td><h1>Dynamic Convex Hull in 3D</h1>
+      <table>
+        <tbody><tr>
+          <td>This is a project for Computational Geometry course. An efficient implementation of dynamic convex hull construction in 3D. We used an incremental algorithm and it is possible to add/remove vertices while keeping the convex hull structure.</td>
+          <td width="200"><img src="./M. Abdullah Bulbul_files/convex_hull.png" style="float:left; margin-bottom:10px" width="250"> </td>
+        </tr>
+      </tbody></table>
+    </td></tr>
+    <tr><td align="center"><h1>2007</h1></td><td><h1>Ray tracer implementation - Computer Graphics II </h1>
+      <table>
+        <tbody><tr>
+          <td>Ray tracer developed through a series of homeworks in Computer Graphics II course. The lecturer of the course was my Ph.D. supervisor Tolga Capin.</td>
+          <td><img src="./M. Abdullah Bulbul_files/raytracer.png" style="float:left; margin-bottom:10px" width="150"> </td>
+        </tr>
+      </tbody></table>
+    </td></tr>
+    <tr><td align="center"><h1>2007</h1></td><td><h1>Constructing a Car Model by txt</h1>
+      <br><p>
+      I have generated a car model by manually specifying all triangle/vertex coordinates in a text file (Without a modeling tool!). 
+      It has 221 triangles and some spheres/cones for tires. 
+      Not a known format (such as ".obj" or ".ply") but <a href="http://bankslab.berkeley.edu/members/abdullah/res/arabalar/araba5.txt" target="_blank"><u>here</u></a> is the ".txt" file of the model.</p>
+      <p>The following pictures are generated by my Ray Tracer implementation mentioned above.</p>
+
+      <img src="./M. Abdullah Bulbul_files/araba2.jpg" style="float:left; margin-bottom:10px" width="16%">
+      <img src="./M. Abdullah Bulbul_files/araba3.jpg" style="float:left; margin-bottom:10px" width="16%">
+      <img src="./M. Abdullah Bulbul_files/araba53.jpg" style="float:left; margin-bottom:10px" width="16%">
+      <img src="./M. Abdullah Bulbul_files/araba72.jpg" style="float:left; margin-bottom:10px" width="16%">
+      <img src="./M. Abdullah Bulbul_files/araba74.jpg" style="float:left; margin-bottom:10px" width="16%">
+      <img src="./M. Abdullah Bulbul_files/araba10.jpg" style="float:left; margin-bottom:10px" width="16%">
+      </td></tr>
+    <tr><td align="center"><h1>2007</h1></td><td><h1>Bid Online</h1>
+      <table>
+        <tbody><tr>
+          <td>An auction website (similar to eBay) made in 3rd year Databases course. It was <strong>the best database project of the term!</strong> Thanks to teammates Onur Kucuktunc and Eren Algan. We used MySQL and PHP to organize website and database management.</td>
+          <td width="200"><img src="./M. Abdullah Bulbul_files/bidonline.jpg" style="float:left; margin-bottom:10px" width="250"> </td>
+        </tr>
+      </tbody></table>
+    </td></tr>
+    <tr><td align="center"><h1>2006</h1></td><td><h1>Painting the townhouse</h1>
+      <br><p>When I was a third year undergraduate, my father asked me how would the house look like if we paint it. 
+      And I wrote a simple program without any image processing background :). The program shades the house according to a selected color. 
+      It took approximately an hour to write the program.
+      </p>
+      <p>Bad news: The house is still non-painted.</p>
+      <br>
+      <table>
+        <tbody><tr>
+          <td align="center"><img src="./M. Abdullah Bulbul_files/ev.jpg" style="float:left; margin-bottom:5px" width="100%"></td><td width="50"></td>
+          <td align="center"><img src="./M. Abdullah Bulbul_files/ev1.jpg" style="float:left; margin-bottom:5px" width="100%"></td><td width="50"></td>
+          <td align="center"><img src="./M. Abdullah Bulbul_files/ev2.jpg" style="float:left; margin-bottom:5px" width="100%"></td>
+        </tr>
+        <tr><td align="center">original</td><td width="50"></td>
+          <td align="center">painted</td><td width="50"></td>
+          <td align="center">painted</td></tr>
+    </tbody></table>
+
+    </td></tr>
+    <tr><td align="center"><h1>2006</h1></td><td><h1>Tankut</h1>
+      <table>
+        <tbody><tr>
+          <td>A Tank game made as an Object-Oriented Programming course project. My attempt on 3D (or 2.5D) rendering without any graphics library other than Java's awt and swing (I didn't meet OpenGL by then).</td>
+          <td width="200"><img src="./M. Abdullah Bulbul_files/tankut_lr.jpg" style="float:left; margin-bottom:10px" width="250"> </td>
+        </tr>
+      </tbody></table>
+    </td></tr>
+    <tr><td align="center"><h1>2004</h1></td><td><h1>Surprising Cuts</h1>
+      <table>
+        <tbody><tr>
+          <td>
+            <img src="./M. Abdullah Bulbul_files/index.1.gif" style="float:left; margin-bottom:5px" width="100">
+          </td>
+          <td><p>Our SoftwareQuest08 winner freshman project. My first project with my dear friends Onur Kucuktunc and Eren Algan.</p>
+              <p>User (virtually) folds a paper, cuts it using several tools, then unfolds to see the surprising! result.</p>
+          </td>
+        </tr>
+      </tbody></table>
+      <table>
+        <tbody><tr>
+          <td align="center"><img src="./M. Abdullah Bulbul_files/dnm1.png" style="float:left; margin-bottom:5px" width="100%"></td><td width="10"></td>
+          <td align="center"><img src="./M. Abdullah Bulbul_files/dnm2.png" style="float:left; margin-bottom:5px" width="100%"></td><td width="10"></td>
+          <td align="center"><img src="./M. Abdullah Bulbul_files/dnm3.png" style="float:left; margin-bottom:5px" width="100%"></td><td width="10"></td>
+          <td align="center"><img src="./M. Abdullah Bulbul_files/dnm4.png" style="float:left; margin-bottom:5px" width="100%"></td>
+        </tr>
+      </tbody></table>
+    </td></tr>
+    <tr><td align="center"><h1>2004</h1></td><td><h1>Hello Graphics World! Java applet for Landscape generation (including shadows)</h1>
+    <p>This was my first encounter with programming visuals. Just after learning how to draw lines in a Java applet, I tried to render cast shadows. I will put the applet here if I can resolve the issue with recent versions of Mac OS X, browsers, and java plugins.
+    </p>
+    </td></tr>
+  </tbody></table>
+</div>
+
+
+<div id="schedule" style="display: block;">
+  <iframe src="./M. Abdullah Bulbul_files/embed.html" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
+</div>
+<script>mendeleyWebImporter = {
+  downloadPdfs(e,t) { return this._call('downloadPdfs', [e,t]); },
+  open() { return this._call('open', []); },
+  setLoginToken(e) { return this._call('setLoginToken', [e]); },
+  _call(methodName, methodArgs) {
+    const id = Math.random();
+    window.postMessage({ id, token: '0.9351543878794966', methodName, methodArgs }, 'http://bankslab.berkeley.edu');
+    return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};</script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
